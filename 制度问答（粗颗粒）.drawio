@@ -1,9 +1,111 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="26.0.12">
   <diagram name="第 1 页" id="SWv9Z-fAIA3kH6SwFG8G">
-    <mxGraphModel>
+    <mxGraphModel dx="1358" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0al6cHxmsP-KippOrOrM-51" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="910" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-1" target="0al6cHxmsP-KippOrOrM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-1" value="文本切分器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-27" target="0al6cHxmsP-KippOrOrM-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-4" value="文件加载器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-9" target="0al6cHxmsP-KippOrOrM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-9" value="向量数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-12" target="0al6cHxmsP-KippOrOrM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-12" value="问题预处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-28" target="0al6cHxmsP-KippOrOrM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="570.0476190476188" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-4" target="0al6cHxmsP-KippOrOrM-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="458.1600000000001" y="194.24" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-18" target="0al6cHxmsP-KippOrOrM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-18" value="文本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-20" target="0al6cHxmsP-KippOrOrM-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-20" value="文本块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-22" target="0al6cHxmsP-KippOrOrM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-22" value="嵌入模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-26" target="0al6cHxmsP-KippOrOrM-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-26" value="向量相似度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-27" value="知识库文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-28" value="用户问题" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-29" target="0al6cHxmsP-KippOrOrM-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-29" value="嵌入模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-31" target="0al6cHxmsP-KippOrOrM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-31" value="用户问题的向量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-36" target="0al6cHxmsP-KippOrOrM-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-36" value="与用户问题相关的文本块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-38" target="0al6cHxmsP-KippOrOrM-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-38" value="大模型提示词" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0al6cHxmsP-KippOrOrM-40" target="0al6cHxmsP-KippOrOrM-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-40" value="大模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0al6cHxmsP-KippOrOrM-42" value="最终答案" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="10" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
